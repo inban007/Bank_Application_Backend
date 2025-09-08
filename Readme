@@ -1,0 +1,45 @@
+# Expense Management Backend
+
+This is a simple backend project made with **Spring Boot** and **MySQL**.  
+It helps you manage users and their expenses easily.
+
+---
+
+## ✅ What You Can Do
+
+- Add a new expense  
+- Withdraw an expense  
+- Update an expense  
+- Delete an expense  
+- Add user information  
+- Update user information  
+- Delete user information  
+- Get user information  
+
+---
+
+## 🛠️ Technologies
+
+- Java  
+- Spring Boot  
+- MySQL  
+- Postman (for testing API)
+- IntelliJ Idea 
+
+---
+
+## 📋 API Example
+z
+| Method | URL                       | What It Does            |
+|--------|---------------------------|-------------------------|
+| POST   | /api/users                | Add new user            |
+| PUT    | /api/users/{id}           | Update user info        |
+| DELETE | /api/users/{id}           | Delete user             |
+| GET    | /api/users/{id}           | Get user info           |
+| POST   | /api/expenses             | Add new expense         |
+| PUT    | /api/expenses/{id}        | Update expense          |
+| DELETE | /api/expenses/{id}        | Delete expense          |
+| POST   | /api/expenses/withdraw    | Withdraw expense        |
+
+---
+
